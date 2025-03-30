@@ -1,2 +1,2 @@
 export { StatsSection } from "./StatsSection";
-export { StatsJourney} from './StatsJourney'
+export { StatsJourney } from "./StatsJourney";
