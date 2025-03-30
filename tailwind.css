@@ -140,15 +140,3 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
-
-@keyframes moveBackground {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-.animate-moveBackground {
-  animation: moveBackground 20s linear infinite;
-}
