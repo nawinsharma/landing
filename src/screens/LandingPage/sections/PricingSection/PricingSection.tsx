@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
 
-export const PricingSection = (): JSX.Element => {
+export const PricingSection = ()  => {
   // Feature data for mapping
   const features = [
     {

@@ -8,7 +8,7 @@ import { UserProfileSection } from "./sections/UserProfileSection/UserProfileSec
 import { Menu } from "lucide-react";
 import { StatsSection } from "./sections/StatsSection/StatsSection";
 
-export const LandingPage = (): JSX.Element => {
+export const LandingPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 

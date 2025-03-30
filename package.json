@@ -3,7 +3,7 @@
   "source": "./index.html",
   "type": "module",
   "name": "assignment-project",
-  "description": "Anawin",
+  "description": "nawin",
   "scripts": {
     "dev": "vite",
     "build": "vite build"

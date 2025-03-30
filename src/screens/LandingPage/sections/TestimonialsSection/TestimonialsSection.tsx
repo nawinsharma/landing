@@ -3,7 +3,7 @@ import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 
-export const TestimonialsSection = (): JSX.Element => {
+export const TestimonialsSection = ()  => {
   return (
     <Card className="relative w-full max-w-[1320px] h-[536px] mx-auto bg-[#0f54fb] rounded-[14px] overflow-hidden shadow-shadow">
       <CardContent className="relative h-full p-0">

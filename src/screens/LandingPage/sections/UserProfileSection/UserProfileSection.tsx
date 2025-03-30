@@ -8,7 +8,7 @@ import {
   ToggleGroupItem,
 } from "../../../../components/ui/toggle-group";
 
-export const UserProfileSection = (): JSX.Element => {
+export const UserProfileSection = () => {
   // Step data for the guide section
   const steps = [
     {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 
-export const StatsSection = (): JSX.Element => {
+export const StatsSection = ()  => {
   const stats = [
     {
       title: "250+ Championships Organized",

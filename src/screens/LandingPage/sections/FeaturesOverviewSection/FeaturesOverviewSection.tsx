@@ -4,9 +4,8 @@ import {
   TwitterIcon,
   YoutubeIcon,
 } from "lucide-react";
-import React from "react";
 
-export const FeaturesOverviewSection = (): JSX.Element => {
+export const FeaturesOverviewSection = ()  => {
   // Footer navigation data
   const footerNavigation = [
     {

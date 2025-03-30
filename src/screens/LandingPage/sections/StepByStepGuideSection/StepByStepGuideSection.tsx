@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 
-export const StepByStepGuideSection = (): JSX.Element => {
+export const StepByStepGuideSection = ()  => {
   return (
     <section className="relative w-full">
       {/* Hero background with gradient overlay */}
