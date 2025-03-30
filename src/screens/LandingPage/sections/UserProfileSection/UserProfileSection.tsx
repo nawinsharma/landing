@@ -314,10 +314,11 @@ export const UserProfileSection = () => {
         </div>
 
         {/* Success Banner */}
-        <div className="w-full h-[300px] md:h-[490px] bg-[#f3f3f3] rounded-[14px] overflow-hidden relative">
-          <div className="absolute w-full h-full md:w-[1487px] md:h-[1213px] md:top-[-361px] md:left-[-83px] bg-[url(/vector-7818.svg)] bg-[100%_100%]">
-            <div className="relative w-full md:w-[618px] h-auto md:h-[227px] top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 md:top-[474px] md:left-[425px] flex flex-col items-center gap-4 md:gap-[17px] p-4 md:p-0">
-              <h3 className="w-full md:w-[618px] [font-family:'Alata',Helvetica] font-normal text-2xl md:text-5xl text-center leading-normal md:leading-[54px]">
+      
+        <div className="w-full h-[490px] bg-[#f3f3f3] rounded-[14px] overflow-hidden relative">
+           <div className="absolute w-[1487px] h-[1213px] top-[-361px] left-[-83px] bg-[url(/vector-7818.svg)] bg-[100%_100%]">
+             <div className="relative w-[618px] h-[227px] top-[474px] left-[425px] flex flex-col items-center gap-[17px]">
+               <h3 className="w-[618px] [font-family:'Alata',Helvetica] font-normal text-5xl text-center leading-[54px]">
                 <span className="text-[#00b836]">
                   Success!
                   <br />

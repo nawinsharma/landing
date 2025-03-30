@@ -7,6 +7,7 @@ import { TestimonialsSection } from "./sections/TestimonialsSection/Testimonials
 import { UserProfileSection } from "./sections/UserProfileSection/UserProfileSection";
 import { Menu } from "lucide-react";
 import { StatsSection } from "./sections/StatsSection/StatsSection";
+import { StatsJourney } from "./sections/StatsSection";
 
 export const LandingPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -123,6 +124,7 @@ export const LandingPage = () => {
         {/* Stats Section */}
         <section className="w-full py-16 px-4 sm:px-0">
           <StatsSection />
+          <StatsJourney />
         </section>
 
         {/* Pricing Section */}
