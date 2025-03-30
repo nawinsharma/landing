@@ -603,18 +603,6 @@ export const UserProfileSection = () => {
                 <div className="hidden md:block absolute w-[175px] h-[716px] top-0 left-[1678px] bg-white blur-2xl" />
                 <div className="hidden md:block absolute w-[175px] h-[716px] top-0 left-[201px] bg-white blur-2xl" />
               </div>
-
-              <div className="flex flex-col items-center gap-2 w-full mt-8 md:mt-0 md:absolute md:top-0 md:left-1/2 md:transform md:-translate-x-1/2">
-                <h2 className="w-full md:w-[753px] [font-family:'Alata',Helvetica] font-normal text-[#010512] text-2xl md:text-[52px] text-center tracking-[-0.5px] md:tracking-[-1.04px] leading-normal md:leading-[76px]">
-                  What Yogasana lovers say using our Software
-                </h2>
-                <p className="w-full md:w-[861px] [font-family:'Rethink_Sans',Helvetica] font-normal text-[#525459] text-base md:text-lg text-center tracking-[-0.3px] md:tracking-[-0.36px] leading-normal md:leading-[26px]">
-                  Discover firsthand accounts from organizers, athletes, and
-                  judges who have experienced the seamless excellence of our
-                  platform. Their stories showcase how we've transformed
-                  championship management and elevated competitive success.
-                </p>
-              </div>
             </div>
           </div>
 
@@ -624,7 +612,7 @@ export const UserProfileSection = () => {
             src="/vector-5-2.svg"
           />
         </div>
-      </div>
+      </div>        
     </section>
   );
 };
